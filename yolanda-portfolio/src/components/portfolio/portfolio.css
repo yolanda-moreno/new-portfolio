@@ -98,15 +98,16 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .resume__container {
-        grid-template-columns: 450px;
+    .work__filters {
+        justify-content: center;
+    }
+
+    .work__container {
+        grid-template-columns: repeat(2, 330px);
         justify-content: center;
         row-gap: 1.875rem;
     }
 
-    .timeline__item::before {
-        left: 2px;
-    }
 }
 
 @media screen and (max-width: 576px) {

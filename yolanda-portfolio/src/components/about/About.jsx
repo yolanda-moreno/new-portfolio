@@ -1,6 +1,6 @@
 import React from 'react';
 import "./about.css";
-import Me from "../../assets/avatar-2.svg";
+import Me from "../../assets/myself-modified.png";
 import AboutBox from './AboutBox';
 
 const About = () => {
