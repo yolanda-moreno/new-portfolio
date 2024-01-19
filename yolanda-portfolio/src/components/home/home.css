@@ -100,6 +100,7 @@
     top: 0;
     height: 100%;
     width: 100%;
+    z-index: -1;
 }
 
 .shape {
@@ -159,4 +160,10 @@
 .s11 {
     bottom: 10%;
     right: 2%;
+}
+
+@media screen and (max-width:1024px) {
+    .home__social-link {
+        font-size: 1.125rem;
+    }
 }
