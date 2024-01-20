@@ -19,15 +19,15 @@ function Portfolio() {
 
             <div className="work__filters">
                 <span className="work__item" onClick={() => setItems(Menu)}>All</span>
-                <span className="work__item" onClick={() => filterItem("Creative")}>Creative</span>
-                <span className="work__item" onClick={() => filterItem("Art")}>Art</span>
-                <span className="work__item" onClick={() => filterItem("Design")}>Design</span>
-                <span className="work__item" onClick={() => filterItem("Branding")}>Branding</span>
+                <span className="work__item" onClick={() => filterItem("Javascript")}>Javascript</span>
+                <span className="work__item" onClick={() => filterItem("React")}>React</span>
+                <span className="work__item" onClick={() => filterItem("Vue")}>Vue</span>
+                <span className="work__item" onClick={() => filterItem("Node")}>Node</span>
             </div>
 
             <div className="work__container grid">
                 {items.map((elem) => {
-                    const { id, image, title, category } = elem;
+                    const { id, image, title, desc, category, link } = elem;
                     return (
                         <div className="work__card" key={id}>
                             <div className="work__thumbnail">
@@ -37,7 +37,8 @@ function Portfolio() {
 
                             <span className="work__category">{category}</span>
                             <h3 className="work__title">{title}</h3>
-                            <a href="#" className="work__button">
+                            <h4 className="work__desc">{desc}</h4>
+                            <a href={link} className="work__button">
                                 <i className="icon-link work__button-icon"></i>
                             </a>
 
