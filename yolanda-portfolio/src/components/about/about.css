@@ -65,18 +65,18 @@
 
 }
 
-.development {
+.frontend {
     width: 90%;
     background-color: rgb(255, 209, 92);
 }
 
-.ui__design {
-    width: 90%;
+.backend {
+    width: 70%;
     background-color: rgb(255, 76, 96);
 }
 
-.photography {
-    width: 90%;
+.ui__design {
+    width: 85%;
     background-color: rgb(108, 108, 299);
 }
 

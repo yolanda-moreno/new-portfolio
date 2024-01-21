@@ -6,8 +6,8 @@ function AboutBox() {
             <div className="about__box">
                 <i className="about__icon icon-fire"></i>
                 <div>
-                    <h3 className="about__title">198</h3>
-                    <span className="about__subtitle">Projects completed</span>
+                    <h3 className="about__title">404</h3>
+                    <span className="about__subtitle">Hours without <br />a syntax error</span>
                 </div>
             </div>
 
@@ -20,18 +20,18 @@ function AboutBox() {
             </div>
 
             <div className="about__box">
-                <i className="about__icon icon-people"></i>
+                <i className="about__icon icon-screen-desktop"></i>
                 <div>
-                    <h3 className="about__title">234</h3>
-                    <span className="about__subtitle">Satisfied clients</span>
+                    <h3 className="about__title">9999</h3>
+                    <span className="about__subtitle">Lines of code</span>
                 </div>
             </div>
 
             <div className="about__box">
-                <i className="about__icon icon-badge"></i>
+                <i className="about__icon icon-magic-wand"></i>
                 <div>
-                    <h3 className="about__title">32</h3>
-                    <span className="about__subtitle">Nominees winner</span>
+                    <h3 className="about__title">109</h3>
+                    <span className="about__subtitle">Bugs turned <br />into features</span>
                 </div>
             </div>
         </div>

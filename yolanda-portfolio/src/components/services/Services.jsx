@@ -8,23 +8,23 @@ const data = [
     {
         id: 1,
         image: Image1,
-        title: "UI/UX design",
+        title: "Animals",
         description:
-            "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+            "Animal lover extraordinaire. From the smallest bugs to the fluffiest of companions, I'm on a mission to pet them all!",
     },
     {
         id: 2,
         image: Image2,
-        title: "Web Development",
+        title: "Videogames",
         description:
-            "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+            "Gamer at heart, code wizard by day. My life has cheat codes, respawn points, and a quest log to conquer. Let the games begin!",
     },
     {
         id: 3,
         image: Image3,
-        title: "Photography",
+        title: "Art & Fashion",
         description:
-            "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+            "Art geek meets fashion detective. Whether it's a canvas masterpiece or the latest runway trends, count me in for the style spectacle.",
     },
 ];
 
