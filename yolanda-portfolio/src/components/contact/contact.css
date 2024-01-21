@@ -52,3 +52,7 @@
 .contact__form-area textarea {
     resize: none;
 }
+
+.contact__info {
+    background-repeat: no-repeat;
+}
