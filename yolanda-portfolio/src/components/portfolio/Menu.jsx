@@ -9,8 +9,8 @@ const Menu = [
         id: 1,
         image: Work1,
         title: "Cheese It",
-        desc: "React, Node, Laravel",
-        category: "React",
+        desc: "React, Node, Laravel, SocketIO, WebRTC",
+        category: ["React", "Node"],
         link: "https://cheese-it.cat/",
     },
     {
@@ -18,15 +18,15 @@ const Menu = [
         image: Work2,
         title: "League of Trivial",
         desc: "Vue, Laravel",
-        category: "Vue",
+        category: ["Vue"],
         link: "https://leagueoftrivial.fullstackfolio.site/",
     },
     {
         id: 3,
         image: Work3,
         title: "Picture This",
-        desc: "React, Node, Laravel",
-        category: "React",
+        desc: "React, Node, Laravel, SocketIO",
+        category: ["React", "Node"],
         link: "https://picturethis.fullstackfolio.site/",
     },
     {
@@ -34,7 +34,7 @@ const Menu = [
         image: Work4,
         title: "Kakushi Anime",
         desc: "HTML, CSS, Javascript",
-        category: "Javascript",
+        category: ["Javascript"],
         link: "https://kakushianime.fullstackfolio.site/",
     },
     {
@@ -42,7 +42,7 @@ const Menu = [
         image: Work5,
         title: "Weather Track",
         desc: "HTML, CSS, Javascript",
-        category: "Javascript",
+        category: ["Javascript"],
         link: "https://weathertrack.fullstackfolio.site/",
     }
 ];

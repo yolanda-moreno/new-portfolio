@@ -11,7 +11,11 @@ const Home = () => {
             <div className="intro">
                 <img src={Me} alt="" className="home__img" />
                 <h1 className="home__name">Yolanda Moreno</h1>
-                <span className="home__education">I'm a FullStack Developer</span>
+                <div className="home__education animated-info">
+                    <span className="animated-item">FullStack Developer</span>
+                    <span className="animated-item">Passionate about coding</span>
+                    <span className="animated-item">Building awesome web experiences</span>
+                </div>
                 <HeaderSocials />
                 <a href="#contact" className='btn'>Hire Me</a>
                 <ScrollDown />

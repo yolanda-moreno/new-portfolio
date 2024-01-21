@@ -1,6 +1,7 @@
 .work__filters {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     column-gap: 1.875rem;
     margin-bottom: 2.5rem;
 }
@@ -11,7 +12,8 @@
     transition: .3s;
 }
 
-.work__item:hover {
+.work__item:hover,
+.active {
     color: var(--first-color);
 }
 
@@ -72,6 +74,7 @@
 .work__desc {
     color: #fff;
     font-size: var(--h4-font-size);
+    font-weight: var(--font-normal);
     margin: 0 0 0.98rem;
     padding: 0 1.25rem;
     position: absolute;
@@ -84,7 +87,7 @@
 .work__button {
     color: #fff;
     position: absolute;
-    bottom: 1.5rem;
+    bottom: 0.5rem;
     left: 1.5rem;
     font-size: var(--h3-font-size);
     display: block;
@@ -123,8 +126,18 @@
 
 }
 
-@media screen and (max-width: 576px) {
-    .resume__container {
+@media screen and (max-width: 768px) {
+    .work__container {
+        grid-template-columns: 310px;
+    }
+
+    .work__filters {
+        row-gap: .25rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .work__container {
         grid-template-columns: 1fr;
     }
 }

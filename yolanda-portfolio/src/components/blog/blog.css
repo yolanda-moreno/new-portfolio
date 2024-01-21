@@ -44,3 +44,23 @@
 .blog__technology:hover .blog__title {
     opacity: 1;
 }
+
+@media screen and (max-width: 1024px) {
+    .blog__container {
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blog__container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .blog__container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
