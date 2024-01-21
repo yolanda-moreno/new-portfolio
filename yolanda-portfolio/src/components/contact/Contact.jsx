@@ -34,7 +34,7 @@ function Contact() {
                     <h3 className="contact__title">Let's talk about everything!</h3>
                     <p className="contact__details">Don't like forms? Send me an <a href="mailto:yolandamorenoarranz@hotmail.com" className='contact__mailto'>email</a>.👋</p>
                 </div>
-                <form method="POST" className="contact__form" data-netlify="true">
+                <form method="POST" onSubmit={handleSubmit} className="contact__form" data-netlify="true" name="contact">
                     <div className="contact__form-group">
                         <div className="contact__form-div">
                             <input
