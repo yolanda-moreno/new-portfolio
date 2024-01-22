@@ -17,14 +17,15 @@ function Contact() {
         });
     };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        if (formData.name && formData.email && formData.subject && formData.message) {
-            console.log('Form submitted:', formData);
-        } else {
-            alert('Please fill in all fields before submitting.');
-        }
-    };
+    // const handleSubmit = (e) => {
+    //     // e.preventDefault();
+    //     if (formData.name && formData.email && formData.subject && formData.message) {
+    //         console.log('Form submitted:', formData);
+    //     } else {
+    //         alert('Please fill in all fields before submitting.');
+    //     }
+    //     e.target.submit();
+    // };
 
     return (
         <section className="contact container section" id="contact">
@@ -34,7 +35,8 @@ function Contact() {
                     <h3 className="contact__title">Let's talk about everything!</h3>
                     <p className="contact__details">Don't like forms? Send me an <a href="mailto:yolandamorenoarranz@hotmail.com" className='contact__mailto'>email</a>.👋</p>
                 </div>
-                <form method="POST" onSubmit={handleSubmit} className="contact__form" data-netlify="true" name="contact">
+                <form method="POST" className="contact__form" data-netlify="true" name="contact">
+                    <input type="hidden" name="form-name" value="contact" />
                     <div className="contact__form-group">
                         <div className="contact__form-div">
                             <input
