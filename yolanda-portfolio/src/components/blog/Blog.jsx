@@ -20,6 +20,9 @@ import Image17 from '../../assets/technologies/PHP.png';
 import Image18 from '../../assets/technologies/React.png';
 import Image19 from '../../assets/technologies/socketio.png';
 import Image20 from '../../assets/technologies/Vue.png';
+import Image21 from '../../assets/technologies/Csharp.png';
+import Image22 from '../../assets/technologies/Dotnet.png';
+import Image23 from '../../assets/technologies/Azure.png';
 
 
 const technologies = [
@@ -43,6 +46,9 @@ const technologies = [
     { id: 18, image: Image18, title: 'React' },
     { id: 19, image: Image19, title: 'Socket.io' },
     { id: 20, image: Image20, title: 'Vue' },
+    { id: 21, image: Image21, title: 'C#' },
+    { id: 22, image: Image22, title: '.NET' },
+    { id: 23, image: Image23, title: 'Azure' },
 ];
 
 function Blog() {

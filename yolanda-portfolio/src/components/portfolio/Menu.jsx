@@ -3,6 +3,8 @@ import Work2 from '../../assets/projects/league of trivial.png';
 import Work3 from '../../assets/projects/Picture This.png';
 import Work4 from '../../assets/projects/kakushi.png';
 import Work5 from '../../assets/projects/weather.png';
+import Work6 from '../../assets/projects/rockpaperscissors.png';
+
 
 const Menu = [
     {
@@ -44,7 +46,16 @@ const Menu = [
         desc: "HTML, CSS, Javascript",
         category: ["Javascript"],
         link: "https://weathertrack.fullstackfolio.site/",
+    },
+    {
+        id: 6,
+        image: Work6,
+        title: "Rock, Paper, Scissors",
+        desc: "React, ASP.NET Core, .NET, C#",
+        category: ["React", ".NET", "C#"],
+        link: "https://rockpaperscissors-yolanda.azurewebsites.net/",
     }
+
 ];
 
 export default Menu

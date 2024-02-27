@@ -53,6 +53,18 @@ function Portfolio() {
                 >
                     Node
                 </span>
+                <span
+                    className={`work__item ${activeCategory === "C#" ? 'active' : ''}`}
+                    onClick={() => filterItem(["C#"])}
+                >
+                    C#
+                </span>
+                <span
+                    className={`work__item ${activeCategory === ".NET" ? 'active' : ''}`}
+                    onClick={() => filterItem([".NET"])}
+                >
+                    .NET
+                </span>
             </div>
 
             <div className="work__container grid">
